@@ -29,6 +29,7 @@ function Accounts() {
     return (
         <div className="App">
             <h1> Here are the accounts { accountElements }</h1>
+            Enter new amount: <input type={onsubmit} name="submission"/>
         </div>
     )
 }
