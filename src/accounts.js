@@ -35,4 +35,6 @@ function Accounts() {
     )
 }
 
+export default Accounts
+
 ReactDOM.render(<Accounts />, document.getElementById('root'))
