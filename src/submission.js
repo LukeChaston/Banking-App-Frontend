@@ -12,4 +12,6 @@ class submission extends React.Component {
     }
 }
 
-ReactDOM.render(<submission />, document.getElementById('root'));
+export default submission
+
+ReactDOM.render(<submission />,document.getElementById('root'));
