@@ -43,4 +43,5 @@ background-image: url("Money-Coins.jpeg") ;
   width:1000px;
   text-align: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
