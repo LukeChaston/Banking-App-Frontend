@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+background-image: url("Money-Coins.jpeg") ;
+  height: 1000px;
+  width:1000px;
+  text-align: center;
+  background-size: contain;
+}
