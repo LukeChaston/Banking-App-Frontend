@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+
 function useGetAccounts() {
     // sets up local state inside function
     // accounts = variable that stores state
@@ -29,7 +30,7 @@ function Accounts() {
     return (
         <div className="App">
             <h1> Here are the accounts { accountElements }</h1>
-            Enter new amount: <input type={onsubmit} name="submission"/>
+
         </div>
     )
 }
