@@ -2,7 +2,8 @@ import React, {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import accounts from './accounts'
-import Submission from './submission'
+import submission from './submission'
+import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
 import App from './App';
 
 
@@ -10,7 +11,7 @@ class Routing extends React.Component {
     render() {
         return (
             <Router>
-                <div>
+                <div name="nav">
                     <ul>
                         <li>
                             <Link to="/">Home</Link>
@@ -26,7 +27,6 @@ class Routing extends React.Component {
                         <Route exact path='/' component={ App }/>
                         <Route path='/accounts' component={ accounts }/>
                         <Route path='/submission' component={ submission }/>
-                        <Route component={NotFound}/>
                     </Switch>
                 </div>
             </Router>
@@ -34,3 +34,4 @@ class Routing extends React.Component {
     }
 }
 
+ReactDOM.render(<Routing />, document.getElementById('root'));
